@@ -1,0 +1,10 @@
+group 'org.to2mbn'
+version '2.5-SNAPSHOT'
+
+dependencies {
+    compile project(':JMCCC:jmccc')
+    compile 'org.tukaani:xz:1.5'
+    compile 'org.apache.httpcomponents:httpasyncclient:4.1.1'
+    compile 'org.ehcache.modules:ehcache-impl:3.1.0'
+    compile 'javax.cache:cache-api:1.0.0'
+}

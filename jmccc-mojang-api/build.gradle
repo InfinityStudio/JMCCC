@@ -1,0 +1,6 @@
+group 'org.to2mbn'
+version '2.5-SNAPSHOT'
+
+dependencies {
+    compile project(':JMCCC:jmccc-yggdrasil-authenticator')
+}
